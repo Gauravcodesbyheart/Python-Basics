@@ -1,0 +1,11 @@
+list = []
+print("Enter the elemets of the list:")
+list.append(input())
+list.append(input())
+list.append(input())
+copy_list = list.copy()
+copy_list.reverse()
+if (copy_list == list):
+    print("Palindrome")
+else:
+    print("Not a Palindrome") 
